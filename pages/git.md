@@ -23,7 +23,6 @@
 	- Local repository
 	- Remote Repository (GitHub)
 - CMD List
-  collapsed:: true
 	- Initialization
 	  collapsed:: true
 		- git --version
@@ -85,7 +84,6 @@
 		- git pull // pull from github to working dir
 		- git fetch origin main // pull from github to local repo
 	- branches
-	  collapsed:: true
 		- info
 		  collapsed:: true
 			- Independent line of development
@@ -96,6 +94,7 @@
 		- git checkout origin/main // check to other branches
 		- git switch branchName // switch branches
 		- git merge // pull from local repo to working dir, merge branches
+		  collapsed:: true
 			- git merge branchName // should be in diff branch
 				- Fast forward merge // Auto commit, auto merge
 				- no conflict // auto merge, auto commit
@@ -116,6 +115,7 @@
 			- *.log
 	- basic 02
 		- git diff --staged // diff prev commit and staging area
+		  collapsed:: true
 			- git diff // diff staging area and working dir
 			- git difftool // diff in gui
 		- git log // commit history
@@ -133,6 +133,7 @@
 			- file: blob
 			- dir: tree
 		- git restore --staged <fileName> // put last commit in staging area
+		  collapsed:: true
 			- git restore <fileName> // put staging area to local dir
 			- git restore --source=HEAD~1 fileName // restore file to previous version commit
 		- git clean // remove untracked files(files not in staging area) from local dir
