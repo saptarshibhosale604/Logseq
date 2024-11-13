@@ -24,7 +24,6 @@
 	- Remote Repository (GitHub)
 - CMD List
 	- Initialization
-	  collapsed:: true
 		- git --version
 		- git config
 		  collapsed:: true
@@ -56,6 +55,7 @@
 		- git add // staging area, index
 			- git add . // all files recursively
 		- git commit // snapshot
+		  collapsed:: true
 			- id, message, date time, author, data
 			- compress, don't store duplicate data
 			- git commit -m "message" // one line message
@@ -84,7 +84,6 @@
 		- git pull // pull from github to working dir
 		- git fetch origin main // pull from github to local repo
 	- branches
-	  collapsed:: true
 		- info
 		  collapsed:: true
 			- Independent line of development
@@ -137,6 +136,7 @@
 			- dir: tree
 		- git clean // remove untracked files(files not in staging area) from local dir
 	- Undo changes
+	  collapsed:: true
 		- git restore // Restoring working dir to last commit in local repo
 			- git restore --staged <fileName> // put last commit in local repo in staging area
 			- git restore <fileName> // put staging area to working dir
@@ -146,6 +146,15 @@
 			- git reset <commitId> --hard // remove commit upto commitId from local repo, working dir also reset to commitId, not recoverable,  commit id not remain in git log
 		- git revert
 			- git revert <commitId> // working dir and local repo to commitId-1, commit id remain in the git log
+	- Intermidiate 01
+	  collapsed:: true
+		- git stash // Preserve changes without commit
+			- git stash pop // getting preserved changes back
+			- git stash apply
+		- .gitignore // List of files or dir to ignore by git
+	- Common workflow patterns
+		- Single branch workflow
+		- Branch based development
 	- [[Question]]
 		- git checkout vs git switch
 - Data
