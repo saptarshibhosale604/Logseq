@@ -147,7 +147,6 @@
 		- git revert
 			- git revert <commitId> // working dir and local repo to commitId-1, commit id remain in the git log
 	- Intermidiate 01
-	  collapsed:: true
 		- git stash // Preserve changes without commit
 			- git stash pop // getting preserved changes back
 			- git stash apply
