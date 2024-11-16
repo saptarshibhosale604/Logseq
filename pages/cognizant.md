@@ -2,3 +2,7 @@
 	- Security Que: Brothers name: Vedmantra
 	- Username: saptarshisuresh.bhosale2
 	- Pass: 081082102065048057052052048049052048 #Encrypted
+- Learnings
+	- [[git]]
+	- [[Snowflake]]
+	- [[I3WM]]

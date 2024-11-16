@@ -424,6 +424,6 @@
  :builtin-pages? true
  :orphan-pages? false
  :excluded-pages? true}
- :graph/forcesettings {:link-dist 20
+ :graph/forcesettings {:link-dist 30
  :charge-strength -200
- :charge-range 2600}}
+ :charge-range 2200}}

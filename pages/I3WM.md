@@ -11,6 +11,9 @@
 	- Storing, Retrieving, Organizing, Connecting
 - TODO [#B] VS Codium vs VS Code
 - TODO [#C] Log Files and understanding them
+  :LOGBOOK:
+  CLOCK: [2024-11-14 Thu 11:37:47]--[2024-11-14 Thu 11:37:48] =>  00:00:01
+  :END:
 - TODO [#A] Launching Logseq app and terminal git logseq togather
 - DONE [#B] ssbautomation0 firefox
 - TODO [#B] firefox css
@@ -26,7 +29,7 @@
 - TODO [#C] Advance auto complete in cmd
 - TODO [#C] Gimp vs paint.net
 - TODO [#D] STL file builder windows vs linux
-- [[I3 App list]]
+- [[I3WM App list]]
   collapsed:: true
 	- Alacritty
 		- terminal
@@ -79,5 +82,3 @@
   CLOCK: [2024-11-08 Fri 22:03:47]--[2024-11-08 Fri 22:03:47] =>  00:00:00
   :END:
 - TODO [#B] Merge config data with logseq
-	-
-	-

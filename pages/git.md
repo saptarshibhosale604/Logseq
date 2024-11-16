@@ -26,7 +26,6 @@
 	- Initialization
 		- git --version
 		- git config
-		  collapsed:: true
 			- level
 			  collapsed:: true
 				- system
@@ -94,7 +93,6 @@
 		- git checkout origin/main // check to other branches
 		- git switch branchName // switch branches
 		- git merge // pull from local repo to working dir, merge branches
-		  collapsed:: true
 			- git merge branchName // should be in diff branch
 				- Fast forward merge // Auto commit, auto merge
 				- no conflict // auto merge, auto commit
@@ -151,9 +149,29 @@
 			- git stash pop // getting preserved changes back
 			- git stash apply
 		- .gitignore // List of files or dir to ignore by git
+		- Pull request // Merging one branch to main branch
+			- with multiple users
+			- git hub feature
+			- all branches on one user
+			- needs permission
+		- fork // Create copy of repo on own github account
+			- with multiple users
+			- git hub feature
+			- no need permission
+		- Github Actions // Automate Build, test, and deployment pipeline
+			- CI/CD
+			- Triggering event, Runner, Jobs
+			- YAML file
+			-
+	- git tree
+	  collapsed:: true
+		- git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
+		- git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
 	- Common workflow patterns
+	  collapsed:: true
 		- Single branch workflow
 		- Branch based development
+	-
 	- [[Question]]
 		- git checkout vs git switch
 - Data
@@ -166,7 +184,9 @@
 			- companyMain // operate from company
 				- git push -u origin companyMain
 	- github project02
-		- token01: 101105116094050069051088052072048109052089069089067074074066049052125066116071097070106082053085087112054081113091083107 #Encrypted
+		- token01
+			- 101105116094050069051088052072048109052089069089067074074066049052125066116071097070106082053085087112054081113091083107 #Encrypted
+			- Admin permissions
 		- https://github.com/saptarshibhosale604/project02
 		- git config --global user.email "saptarshibhosale604@gmail.com"
 		- git config --global user.name "saptarshibhosale604"

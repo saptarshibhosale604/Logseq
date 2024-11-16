@@ -1,0 +1,18 @@
+- Extending snowflake functionality
+	- Snowpark: Snowpark API
+		- Accessing and processing data from non sql programming languages
+	- programming functions, stored procedure
+	- Snowflake scripting
+		- if else
+		- loop
+	- External functions
+- Resource management
+	- Resource monitor
+		- track credit usage
+		- defined quota
+		- if usage > then suspend resource
+		- not manage cloud services cost
+	- System usage and billing
+		- account admim > data > dbs > snowflake
+		- Account usage schema
+		- Information schema
