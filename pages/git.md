@@ -23,9 +23,11 @@
 	- Local repository
 	- Remote Repository (GitHub)
 - CMD List
+  collapsed:: true
 	- Initialization
 		- git --version
 		- git config
+		  collapsed:: true
 			- level
 			  collapsed:: true
 				- system
@@ -83,6 +85,7 @@
 		- git pull // pull from github to working dir
 		- git fetch origin main // pull from github to local repo
 	- branches
+	  collapsed:: true
 		- info
 		  collapsed:: true
 			- Independent line of development
@@ -178,7 +181,7 @@
 	- github token
 	  id:: 672df2e5-7ff2-441c-addd-ae59c5769ef9
 	- github logseq
-		- https://github.com/saptarshibhosale604/logseq
+		- https://github.com/saptarshibhosale604/Logseq.git
 		- branch
 			- main // operate from home
 			- companyMain // operate from company

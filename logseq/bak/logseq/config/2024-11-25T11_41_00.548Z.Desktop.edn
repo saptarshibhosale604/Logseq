@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["cognizant" "A" "git" "I3 App list"]
+ :favorites ["i3wm app list" "cognizant" "A" "git" "I3 App list"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -420,10 +420,10 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "dd-MM-yyyy"
- :graph/settings {:journal? false
+ :graph/settings {:journal? true
  :builtin-pages? true
  :orphan-pages? false
- :excluded-pages? true}
- :graph/forcesettings {:link-dist 20
+ :excluded-pages? false}
+ :graph/forcesettings {:link-dist 30
  :charge-strength -200
- :charge-range 500}}
+ :charge-range 2200}}
