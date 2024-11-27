@@ -1,4 +1,5 @@
 - Theory
+  collapsed:: true
 	- Modeling
 	  collapsed:: true
 		- Blender
@@ -29,6 +30,11 @@
 		- O // Curves
 		- Y // 45 degree angles
 - Projects
+  collapsed:: true
 	- USB Cable Reel
 	- Keychain
 	- Magsafe like mobile holder
+- 3D print saving tips
+	- Gradual infil
+	- Lightning infil
+	-

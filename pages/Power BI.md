@@ -9,21 +9,37 @@
 - Load data
 	- Excel workbook
 - Report
-  collapsed:: true
 	- Data
 	- Visualization
+		- Metrix visualization
+			- Col 1 and Col 2, 3 ... (col 2 values)
+		- Cards visualization
+		- Date visualization
+		- Slicer visualization
+		  collapsed:: true
+			- Filter all the visualization according to the slicer
+			- Numeric
+			- date
+		- Clustered column chart
+			- 2 and 3 dimensional
+		-
+	- Visual level filter
 	- View
 		- Report view
 			- Create table
+			  collapsed:: true
 				- Add columns from Data/Build panel
 				- Filter/ sorting
 				- Formatting
 				- Format painter // Copy paste format from one table to another
+				- Aggregation
 			- Pages
 			- Cross filtering tables // Join
 				- Edit interactions
 		- Table view
 		- Model view // relation between table
 		- Desk Query view
+		- Visual calculation
+			-
+- Filter and slicer
 	-
-		-

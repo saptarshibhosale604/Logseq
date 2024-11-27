@@ -6,3 +6,4 @@
 	- [[git]]
 	- [[Snowflake]]
 	- [[I3WM]]
+	- [[Power BI]]
