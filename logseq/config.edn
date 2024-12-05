@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["i3wm app list" "cognizant" "A" "git" "I3 App list"]
+ :favorites ["Raspberry Pi" "i3wm app list" "cognizant" "A" "git" "I3 App list"]
 
  ;; Set flashcards interval.
  ;; Expected value:

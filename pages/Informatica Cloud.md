@@ -1,0 +1,49 @@
+- IICS
+	- Intelligent Cloud Services
+- My Services
+	- Data Integration
+		- Mapping
+		- ETL
+		- Workflow
+	- Administrator
+		- Organization detail
+		- License
+		- Users
+		- Connections
+			- Oracle
+			- PostgreSql: ODBC
+			- Flat file
+	- Monitor
+		- Job execution
+		- Failure jobs
+	- Operational Insights
+		- Manage services
+		- Alerts
+		- Infrastructure
+		- Mass Ingestion
+- Runtime Envirnment
+	- Run task or executions
+	- Secure agents // communication between pc and iics cloud
+- Mapping
+	- Source config
+		- Single object
+		- Multi object
+		- Source Filter
+		- Sorting
+		- pre sql query
+			- transformation
+		- sql override
+	- Target config
+		- Field rules
+		- Operation
+			- Update
+			- Upsert, Update or Insert
+				- If record already exist then Update
+				- Else Insert the record
+			- Delete
+	- Save mapping
+	- Run Mapping
+	- My Jobs
+		- Job properties: Validate job execution
+- Que
+	- Mapping vs job vs workflow

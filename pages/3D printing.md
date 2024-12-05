@@ -37,4 +37,28 @@
 - 3D print saving tips
 	- Gradual infil
 	- Lightning infil
-	-
+- Joining feature
+  collapsed:: true
+	- Mechnical
+		- Tongue and groove join
+		- T slots
+		- Curved T slot
+		- Circular slot
+		- straight Fins
+		- Grip fins with circular slots
+		- Snapping joins
+		- Threads
+		- Nuts and bolts
+		- Magnets
+		- Heat inserts
+		- Pin and holes
+			- Cylindrical pins and holes
+			- Cylindrical + pyramid type pins and holes
+	- Adhesive
+		- Feviquick
+		- Glue gun
+- Stronger prints
+	- no horizontal plane on 90 degree curve
+	- Add chamfer / Bevel at curves
+	- Round features print horizontally
+	- Round corners / add chamfer / Bevel at joints

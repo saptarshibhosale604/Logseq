@@ -9,6 +9,7 @@
 - Load data
 	- Excel workbook
 - Report
+  collapsed:: true
 	- Data
 	- Visualization
 		- Metrix visualization
@@ -20,11 +21,24 @@
 			- Filter all the visualization according to the slicer
 			- Numeric
 			- date
-		- Clustered column chart
-			- 2 and 3 dimensional
-		-
+		- Graph / chart
+			- Clustered column chart
+				- 2 and 3 dimensional
+			- Stacked col graph
+			- 100% graph
+			- Reference line
+			- Trend analysis graphs / line graphs
+				- Trend line
+				- TODO [#C] Forecast // Use this forecasting in share market
+			- Area graph
+			- Line and column
+			- Ribben chart
+				- ranking
+	- Filter
+	- Tooltip // Data after hovering over data point
 	- Visual level filter
 	- View
+	  collapsed:: true
 		- Report view
 			- Create table
 			  collapsed:: true
@@ -41,5 +55,39 @@
 		- Desk Query view
 		- Visual calculation
 			-
-- Filter and slicer
-	-
+- Publishing reports to Power BI service
+	- .pbix file
+- Mobile layout
+	- Pinning Visualization to Dashboard
+	- Mobile layout report
+- Q and A
+	- Ask question about your data
+	- For dashboard: Auto
+	- For report: Visualization
+- Multiple workspace
+- App
+	- View only
+- Custom visualizations
+- Themes
+- DAX
+	- DAX calculated columns
+	- DAX functions
+		- Date
+	- DAX measures
+	- DAX query view
+		- Run query without effecting actual data
+- Relationships
+	- Model View
+	- Relationship calculation
+- Query editor
+	- Transformation
+- Summary Tables
+	- Group by
+- Integration with excel
+	- Export in excel
+	- Pivot table
+	- Data: Power BI dataset
+- Integration with powerpoint
+	- Export as
+		- Embed image
+		- Embed live data

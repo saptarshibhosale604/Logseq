@@ -7,3 +7,5 @@
 	- [[Snowflake]]
 	- [[I3WM]]
 	- [[Power BI]]
+	- [[Informatica Cloud]]
+	-

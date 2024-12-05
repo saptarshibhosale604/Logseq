@@ -1,0 +1,29 @@
+- Cost
+	- Free and paid license
+- PowerBI interaction
+	- PowerBI Browser
+	- PowerBI Desktop
+- Workspace
+	- My workspace
+- Semantic model // Connect to data source
+- Load data
+	- Excel workbook
+- Report
+  collapsed:: true
+	- Data
+	- Visualization
+	- View
+		- Report view
+			- Create table
+				- Add columns from Data/Build panel
+				- Filter/ sorting
+				- Formatting
+				- Format painter // Copy paste format from one table to another
+			- Pages
+			- Cross filtering tables // Join
+				- Edit interactions
+		- Table view
+		- Model view // relation between table
+		- Desk Query view
+	-
+		-
