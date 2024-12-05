@@ -23,7 +23,6 @@
 	- Local repository
 	- Remote Repository (GitHub)
 - CMD List
-  collapsed:: true
 	- Initialization
 		- git --version
 		- git config
@@ -182,6 +181,11 @@
 	  id:: 672df2e5-7ff2-441c-addd-ae59c5769ef9
 	- github logseq
 		- https://github.com/saptarshibhosale604/Logseq.git
+		- git remote add origin https://token@github.com/saptarshibhosale604/Logseq.git
+		- Token03
+			- expiry 60 days
+			- admin repo
+			- 101105116094120052114085105119078119075108126117120052115083080068112120110070106064058054103107051049052123096106119049
 		- branch
 			- main // operate from home
 			- companyMain // operate from company
