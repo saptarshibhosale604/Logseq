@@ -1,0 +1,102 @@
+level:: 1
+comment:: Data visualization, reporting, data analysis platform
+type:: tool
+
+- Intro
+	- platform for data analysis, reporting, and visualization
+	- interactive visualizations
+	- connect to various data sources
+- Cost
+	- Free and paid license
+- PowerBI interaction
+	- PowerBI Browser
+	- PowerBI Desktop
+	- PowerBI Mobile
+		- Mobile layout
+			- Pinning Visualization to Dashboard
+			- Mobile layout report
+- Workspace
+	- container
+	- holds a collection of reports, dashboards, datasets
+	- manage Power BI content logical and structured manner
+	- for collaboration
+	- My workspace
+	- Group Workspace
+- Semantic model // Connect to data source
+- Load data
+	- Excel workbook
+- Report
+	- Data
+	- Visualization
+		- Metrix visualization
+			- Col 1 and Col 2, 3 ... (col 2 values)
+		- Cards visualization
+		- Date visualization
+		- Slicer visualization
+			- Filter all the visualization according to the slicer
+			- Numeric
+			- date
+		- Graph / chart
+			- Clustered column chart
+				- 2 and 3 dimensional
+			- Stacked col graph
+			- 100% graph
+			- Reference line
+			- Trend analysis graphs / line graphs
+				- Trend line
+				- TODO [#C] Forecast // Use this forecasting in share market
+			- Area graph
+			- Line and column
+			- Ribben chart
+				- ranking
+	- Filter
+	- Tooltip // Data after hovering over data point
+	- Visual level filter
+	- View
+		- Report view
+			- Create table
+				- Add columns from Data/Build panel
+				- Filter/ sorting
+				- Formatting
+				- Format painter // Copy paste format from one table to another
+				- Aggregation
+			- Pages
+			- Cross filtering tables // Join
+				- Edit interactions
+		- Table view
+		- Model view // relation between table
+		- Desk Query view
+		- Visual calculation
+- Publishing reports to Power BI service
+	- .pbix file
+- Q and A
+	- Ask question about your data
+	- For dashboard: Auto
+	- For report: Visualization
+- Multiple workspace
+- App
+	- View only
+- Custom visualizations
+- Themes
+- DAX
+	- DAX calculated columns
+	- DAX functions
+		- Date
+	- DAX measures
+	- DAX query view
+		- Run query without effecting actual data
+- Relationships
+	- Model View
+	- Relationship calculation
+- Query editor
+	- Transformation
+- Summary Tables
+	- Group by
+- Integration with excel
+	- Export in excel
+	- Pivot table
+	- Data: Power BI dataset
+- Integration with powerpoint
+	- Export as
+		- Embed image
+		- Embed live data

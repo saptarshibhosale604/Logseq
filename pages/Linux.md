@@ -1,0 +1,16 @@
+- cat /etc/os-release // os system installed on the machine
+- sudo tail -f fileName
+	- some lines from the follow
+	- real time following the file content
+- Logging
+	- cd /var/log // log files
+	- boot.log // list of the messages while logging in
+	- dpkg.log OR dnf.log OR apt/history.log // list of download, installation of packages
+	- wtmp OR last // list of login and logout events
+	- btmp OR sudo lastb -adF // list of bad login events
+	- auth.log // authorization login events
+	- syslog // hardware related logs
+	- dmesg // kernel log file, hardware related events
+	- journalctl -u serviceName // system d, inspect actual service of log files
+		- journalctl -fu serviceName // follow the service
+	- systemctl start serviceName // start, stop service

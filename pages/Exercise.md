@@ -1,0 +1,47 @@
+- Week 01
+	- Dynamic Stretching
+	- Skipping ropes
+	- Walking Lunges
+	- Dumbbell Bent over Rows // Back, Lat
+	- Dumbbell Chest Press
+	- Push ups
+	- Dumbbell Shoulder Press
+	- Dumbbell Biceps Curls
+	- Dumbbell Triceps Extension
+	- Static Stretching
+- Week02
+	- Day01
+		- Chest
+			- Dumbbell Chest press
+			- Dumbbell Chest fly
+		- Triceps
+			- Dumbbell Tricep Extension
+			- Dumbbell Tricep Kickback
+	- Day02
+		- Back
+			- Dumbbell Bent-Over Row
+			- Dumbbell Romanian Deadlift
+		- Biceps
+			- Dumbbell Bicep Curl
+			- Dumbbell Hammer Curl
+	- Day03
+		- Legs
+			- Dumbbell Squat
+			- Dumbbell Lunge
+		- Calfs
+			- Calf Raises
+	- Day04
+		- Shoulder
+			- Dumbbell Shoulder Press
+			- Dumbbell Lateral Raise
+		- Abs
+			- sit ups
+			- Plank
+	- Day05
+		- Full body
+			- Burpees
+			- Skipping rows
+		- Forearms
+			- Dumbbell Wrist Curls
+			- Dumbbell Wrist Extensions
+	-

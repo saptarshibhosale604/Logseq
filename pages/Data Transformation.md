@@ -1,0 +1,107 @@
+## AWS Glue
+	- Fully managed (server) ETL services
+	- Components
+		- Data catalog
+			- persistent metadata store
+			- multi data source, but centralized data catalog
+			- Discover and search across all your AWS data sets
+			- Components
+				- Database
+					- logical container, no physical data present
+					- stores metadata tables
+				- Tables
+					- defines the schema and properties about actual data source
+				- Crawlers
+					- Program
+					- connect to data source =>
+					- scans data =>
+					- automatic determine schema =>
+					- and create metadata tables in glue catalog
+				- Connections
+					- Config object
+					- enable aws glue to connect to any data store
+					- contain
+						- db endpoint
+						- username
+						- password
+		- ETL and Data Integration
+			- Spark engine
+			- Components
+				- ETL Jobs
+					- Perform X'mation of data
+					- use spark
+					- serverless
+					- creation options
+						- GUI
+						- code notebook
+						- own script
+					- Source
+					- Transformation
+					- Target
+				- Triggers
+					- event based trigger
+					- scheduled trigger
+				- workflow
+					- relationship between triggers, crawlers, jobs
+	- Github
+		- Github ETL folder
+			- input schema
+			- ETL task
+			- config file
+				- source location, type, name, format
+				- target location, type, name, format
+				- job input parameters
+		- GitHub => terraform variables file // contains ETL definitions => name of the workflow / job // check if it's workflow or job [[*]]
+	- Environments
+		- int, cert, prod
+	- permanent fix // git hub changes
+	- temporary fix // gui running with manual inputs
+	- AWS Glue data brew // for data quality
+- ## AWS Kinesis
+	- AWS managed
+	- For steaming data
+	- collect, process, analyze real time data
+	- Capabilities
+		- Kinesis Video Streams
+		- Kinesis Data Streams
+			- Shard // unique sequence of data records in a stream, partition of incoming stream
+			- Data record // Unit of data stored
+			- Retention period // Time for which data records are accessible after they are added to the stream
+			- Producer // Sends records into kinesis
+			- Consumer // Receive records from kinesis
+			- Kinesis Data stream application // consumer, process the data
+			- Partition keys // partition by shard
+			- Sequence no // different for each record
+			- Client library //
+			- cmds
+				- describe-steam // information of the stream
+				- put-record
+				- get-shard-iterator //
+				- get-records
+		- Kinesis Data Firehose
+		- Kinesis Data Analytics
+- ## AWS Kinesis Data Firehose
+	- Batching large numbers of events into single output file
+		- Buffer interval // load output file after each buffer interval
+		- Buffer size // load output file when buffer size is hit
+	- Fully managed
+	- Delivering streaming data to destinations
+	- Dynamic partitioning
+		- Key name // column name
+	- Methods available
+		- firehose => S3
+		- firehose => lambda (X'mation) => S3
+- ## Amazon Athena
+	- Analyze data stored in S3
+	- Interactive query service, SQL
+	- .# AWS Glue data catalog (metadata)
+	- Saved queries
+	- Fully managed
+	- CSV, JSON, avro, Parquet, Apache ORC
+	- For unstructured, semi-structured, structured data
+	- Analyse cloud trail, cloud front logs
+	- ODBC, JDBC
+	- Query editor
+	- query result location / destination
+		- S3
+	- Recent queries

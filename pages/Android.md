@@ -1,0 +1,3 @@
+- Usefull cmds
+	- adb backup // Backup android
+	- adb restore // Restore android

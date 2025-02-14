@@ -1,0 +1,15 @@
+- Connectors
+	- Electrical
+		- Wago terminal
+		- Screw terminal
+		- Cable shoe ring
+		- Cable shoe push on
+	- Electronics
+		- PCB Screw terminal
+		- JST Connector
+			- spacing 1.25 mm
+			- spacing 1.00 mm
+			- spacing 2.50 mm // For zero pcb
+	- Other
+		- Solder connection
+		- Butt connector

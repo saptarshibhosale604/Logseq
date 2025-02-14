@@ -1,0 +1,96 @@
+level:: 1
+comment:: CI CD pipeline tool, automates the build, test, and deployment of software applications
+type:: tool
+
+- [[Intro]]
+	- CI CD tool
+	- Pipeline based
+	- Open source
+	- Automation pipeline
+	- Language = Go
+	- backend = postgreSQL
+		- configuration
+		- pipeline data
+	- containers = running task
+- Features
+	- simple
+		- Configuration as code
+		- Submitting builds from local file system
+		- if trigger = true then pipeline triggers as code changes in the source
+		- Visualization to verify
+			- color coding for pipeline status
+		- Reproducible and debuggable build
+			- cmd = fly intercept
+		- Rapid local iteration
+			- cmd = fly execute
+			- test.yml
+		- Create team
+			- members
+				- access
+			- Pipeline
+		- parallel or serial execution of jobs
+	- advance
+		- Running containers natively // task isolated with each other
+		- Pluggable resource interface
+		- CI under source control
+			- version control
+		- Custom integration / resource type building
+		- support credential manager tools
+- Architecture
+	- Web node
+		- ATC
+			- Webui, API
+			- Pipeline scheduler
+			- Build tracker // run builds
+			- Checker // checking newer version of resources
+			- unused resource remover
+			- connection with PostgreSQL
+		- TSA
+			- custom build ssh server
+			- registering workers
+	- Worker node
+		- Beacon
+		- Garden // container management api
+		- Baggageclaim // volume management api
+- Fly CLI
+	- interaction with concourse server
+	- config and administration
+	- cmds
+		- fly login
+		- -t // target, containing username and password
+		- fly set-pipeline // create pipeline
+		- fly validate-pipeline // compiling
+		- fly trigger-job
+		- fly destroy-pipeline
+- Concourse pipeline
+	- result of configuring jobs and resources
+	- pipeline components
+		- resource
+			- external inputs and outputs / resource type
+				- git
+				- docker image
+			- black rectangle = resources
+		- job
+			- determine action of the pipeline
+			- includes build plan, set of task
+			- green rectangle = jobs
+		- task
+			- smallest execution unit
+			- function
+			- can succeed or fail
+- builds
+	- specific execution of a pipeline, unique instance of the pipeline
+	- includes
+		- Build number
+		- Pipeline name
+		- Trigger event
+		- Start and end times
+		- Status (e.g. succeeded, failed, pending)
+		- Output logs and artifacts
+		- get // input resource
+			- commit id
+			- commit message
+	- live log
+	- each build is isolated, running on separate container
+	- failed build // red
+	- succeed build // green

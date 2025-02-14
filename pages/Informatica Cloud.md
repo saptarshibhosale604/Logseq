@@ -1,0 +1,97 @@
+level:: 1
+comment:: cloud-based integration platform, manage data across various applications
+type:: tool
+
+- [[Intro]]
+	- IICS // Informatica Intelligent Cloud Services
+- My Services
+	- Data Integration
+		- Mapping
+		- ETL
+		- Workflow
+	- Administrator
+		- Organization detail
+		- License
+		- Users
+		- Connections
+			- Oracle
+			- PostgreSql: ODBC
+			- Flat file
+	- Monitor
+		- Job execution
+		- Failure jobs
+	- Operational Insights
+		- Manage services
+		- Alerts
+		- Infrastructure
+		- Mass Ingestion
+	- Informatica PowerCenter Client components
+		- Designer // Creating, defining mappings, workflow, X'mation, sessions
+		- Workflow manager // Schedule and monitor workflows
+		- Monitor // Real time and historical execution details of workflows
+		- Repository manager // Create, manage, administer repositories / metadata
+- Runtime Envirnment
+	- Run task or executions
+	- Secure agents // communication between pc and iics cloud
+- Mapping
+	- Source config
+		- Single object
+		- Multi object
+		- Source Filter
+		- Sorting
+		- pre sql query
+			- transformation
+		- sql override
+	- Target config
+		- Field rules
+		- Operation
+			- Update
+			- Upsert, Update or Insert
+				- If record already exist then Update
+				- Else Insert the record
+			- Delete
+	- Save mapping
+	- Run Mapping
+	- My Jobs
+		- Job properties: Validate job execution
+	- Field Mapping
+		- Input Field => Output Field
+- Transformation
+	- Expression X'mation
+		- Functions
+		- Data manipulation
+	- Filter X'mation
+		- Conditional Filtering
+			- Single offfutput group
+	- Router X'mation
+		- Conditional Filtering
+		- Multiple output groups
+	- Sorted X'mation
+		- Acceding or Descending order
+	- Aggregator X'mation
+		- MAX, MIN, AVG
+	- Joiner X'mation
+		- Master
+		- Detail
+		- Multi table joining
+	- Lookup X'mation
+		- Catch mechanism
+		- Connected // Return multiple columns
+		- Unconnected // Return one column at a time
+	- Union X'mation
+	- Sequence generation X'mation
+	- Rank X'mation
+- Task
+	- Mapping task
+		- Calls mapping
+		- Schedule
+		- Additional parameter definition on runtime
+	- Synchronization task
+		- Synchronizing data across multiple data sources
+- #Question
+	- Mapping vs job vs workflow
+- Informatica PowerCenter
+  collapsed:: true
+	- Security Que: Brothers name: Vedmantra
+	- Username: saptarshisuresh.bhosale2
+	- Pass: 081082102065048057052052048049052048 #Encrypted

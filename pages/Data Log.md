@@ -1,0 +1,44 @@
+## Amazon Cloudwatch #AWS
+collapsed:: true
+	- standard reports // monitor system performance, analyze trends
+	- create alarms and send notifications
+	- send system events from AWS resources
+	- log files
+	- Monitoring
+		- Basic monitoring
+		- Detailed monitoring
+	- concepts
+		- Metrics // graph of a variable w.r.t time
+		- Dimensions // categories of characteristics that describes a metric, 10 max diamensions
+		- Statistics // metric data aggregation over time
+		- Alarm // automatically initiate an action
+	- Amazon cloudwatch events
+		- Events
+			- changes in aws environment
+			- represented a json blob
+		- Rules
+			- constraints
+		- Target
+			- event handling if event passed from rules
+	- Amazon cloudwatch logs
+		- log files // detailed record of events of resources in aws environment
+		- real time
+		- log retention
+		- log storage
+		- log event // record of resource activity
+		- log stream // sequence of log events from same source
+		- log group // group of log streams having same monitoring and access control
+- ## AWS CloudTrail #AWS
+  collapsed:: true
+	- for analysis and troubleshooting
+	- governance, compliance, operational auditing
+	- captures activity or events
+	- events are logged into S3
+	- .# S3, SNS, DynamoDB, Lambda
+	- Create trail
+		- S3 bucket
+		- log file encryption
+		- event type
+			- management events // operation perform on aws resources
+			- Data events // resource operation perform on or within resources
+			- Insights events // unusual activity, error, user behavior

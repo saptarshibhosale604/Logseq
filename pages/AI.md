@@ -1,0 +1,17 @@
+- Application
+	- Creating software and apps, website
+	- Automating repetitive task,
+		- AI agents
+		- Digital workers
+		- Workflow automation
+	- Content generation
+	- Connect with audience
+- apps, links
+	- Prompt engineering: promptmetheus
+	- Workflow automation: zapier
+	- runway ai
+	- replicate
+	- suna
+	- discript
+	- cloude3
+	- mid journey

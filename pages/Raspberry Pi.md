@@ -1,0 +1,52 @@
+- Components
+	- Active cooler
+		- Fan and Heat sink
+	- 27W USB C power supply
+	- Case
+	- Micro HDMI
+	- Rpi 5, 8GB
+- Features
+	- Small form factor
+	- Ethernet
+	- USB 3.0
+	- USB 2.0
+	- CPU Broadcom Arm quad core 2.4GHz
+	- GPU 800MHz VideoCore VII
+	- 2-3x Pi4
+	- DSI CSI cam display
+	- Micro HDMI
+	- Power Button
+	- PCI for SSD
+	- SD card holder
+	- 40 Pin GPIO
+	- Rp1 IO
+	- additional Battery connector
+	- Fan connector
+- Raspberry Pi Imager
+	- OS, Rpi OS 64Bit
+	- Storage, MicroSD card
+	- Config Wireless LAN
+	- Hostname
+	- Username
+	- Pass
+	- Timezone setting
+- Pi OS Desktop
+	- Welcome wizard
+	- Preferences > Recommended software
+	- if Pi temp > 80 Deg
+		- then thermal throttle
+- Rpi cam
+	- rpicam-hello --timeout 10000 // Camera preview window for 10 Sec
+	- rpicam-hello --timeout 0 // Camera preview window for unlimited Sec
+	- UDP
+	  https://www.raspberrypi.com/documentation/computers/camera_software.html#udp
+	- list-cameras // List of cameras and their available senser modes
+	- rpicam-hello --timeout 10000 --mode 4056:3040:12:P // available camera modes // Height:Width:bit:un/packed
+	- lores-width and lores-height // Lowering image resolution
+	- rpicam-hello --lores-width 128 --lores-height 96 --post-process-file motion_detect.json // Motion detection
+		- https://www.raspberrypi.com/documentation/computers/camera_software.html#motion_detect-stage
+		- motion_detect.json Config file
+		- No need for open CV
+	- Face detection
+		- https://www.raspberrypi.com/documentation/computers/camera_software.html#face_detect_cv-stage
+		- Need open cv
