@@ -4,6 +4,7 @@ type:: language
 
 -
 - [[Intro]]
+  collapsed:: true
 	- Version control system
 		- centralized
 		- distributed
@@ -25,6 +26,7 @@ type:: language
 	- Staging area
 	- Remote Repository (GitHub)
 - CMD List
+  collapsed:: true
 	- Initialization
 		- git --version
 		- git config
@@ -191,11 +193,10 @@ type:: language
 	- [[Question]]
 	  collapsed:: true
 		- git checkout vs git switch
-- Data
+- Credentials
 	- github token
 	  id:: 672df2e5-7ff2-441c-addd-ae59c5769ef9
 	- github logseq
-	  collapsed:: true
 		- https://github.com/saptarshibhosale604/Logseq.git
 		- git remote add origin https://token@github.com/saptarshibhosale604/Logseq.git
 		- Token03
