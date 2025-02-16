@@ -197,7 +197,7 @@ type:: language
 - Common cmd list
 	- Delete a file from previous commits
 		- git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch <file_name>' -- --all
-			- git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch <pages/Cloudflare.md>' -- --all
+			- git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch pages/Cloudflare.md' -- --all
 			- Rewrite the entire commit history of the repository.
 			- Remove the specified file from each commit in the repository, but keep the file working directory
 			- Apply the changes to all branches in the repository.
