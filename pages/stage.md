@@ -1,0 +1,6 @@
+- Project Stages
+	- idea // just an idea about the project
+	- research // project is in research stage
+	- implementation // project is going to prepare for implementation
+	- implemented // already implemented, in prod environment
+	- improvement // post implementation improvement stage

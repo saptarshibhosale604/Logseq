@@ -22,10 +22,11 @@ type:: language
 		- GitKraken
 		- with limitations
 - [[Architecture]]
+  collapsed:: true
 	- Working directory/ Local repository
 	- Staging area
 	- Remote Repository (GitHub)
-- CMD List
+- [[CMD]]
   collapsed:: true
 	- Initialization
 		- git --version
@@ -193,13 +194,25 @@ type:: language
 	- [[Question]]
 	  collapsed:: true
 		- git checkout vs git switch
+- Common cmd list
+	- Delete a file from previous commits
+		- git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch <file_name>' -- --all
+			- git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch <pages/Cloudflare.md>' -- --all
+			- Rewrite the entire commit history of the repository.
+			- Remove the specified file from each commit in the repository, but keep the file working directory
+			- Apply the changes to all branches in the repository.
+		- pages/Cloudflare.md
+		- git push
+		- git push --force --all
+			- update the remote repository with the rewritten commit history
 - Credentials
+  collapsed:: true
 	- github token
 	  id:: 672df2e5-7ff2-441c-addd-ae59c5769ef9
 	- github logseq
 		- https://github.com/saptarshibhosale604/Logseq.git
 		- git remote add origin https://token@github.com/saptarshibhosale604/Logseq.git
-		- Token03
+		- Token03 #Encrypted
 			- expiry 60 days
 			- admin repo
 			- 101105116094120052114085105119078119075108126117120052115083080068112120110070106064058054103107051049052123096106119049
@@ -208,7 +221,6 @@ type:: language
 			- companyMain // operate from company
 				- git push -u origin companyMain
 	- github project02
-	  collapsed:: true
 		- token01
 			- 101105116094050069051088052072048109052089069089067074074066049052125066116071097070106082053085087112054081113091083107 #Encrypted
 			- Admin permissions

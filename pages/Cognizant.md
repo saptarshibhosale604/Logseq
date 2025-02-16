@@ -63,6 +63,7 @@ query-properties:: [:block]
 	- [[Kubernetes]] // container
 	- [[Dockers]] // container
 	- [[Concourse]] // CI CD
+	- [[Cloudflare]]
 	- Not done
 	  collapsed:: true
 		- Jenkins // CI CD
